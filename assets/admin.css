@@ -1,0 +1,47 @@
+/* Link Shortener by iShort — admin styles */
+
+#lsishort-meta-box {
+    font-size: 13px;
+}
+
+#lsishort-meta-box .lsishort-result {
+    margin: 0 0 8px;
+    word-break: break-all;
+}
+
+#lsishort-meta-box .lsishort-result a {
+    color: #2271b1;
+}
+
+#lsishort-meta-box #lsishort-shorten-post-btn {
+    margin-bottom: 6px;
+}
+
+#lsishort-meta-box #lsishort-meta-spinner {
+    vertical-align: middle;
+    margin-left: 6px;
+}
+
+#lsishort-meta-result {
+    margin-top: 6px;
+    word-break: break-all;
+}
+
+#lsishort-meta-result .lsishort-error {
+    color: #d63638;
+}
+
+#lsishort-meta-result a {
+    color: #2271b1;
+}
+
+#lsishort-test-result {
+    font-weight: 600;
+}
+
+/* TinyMCE button */
+.mce-btn[aria-label="Shorten URL with iShort"] svg,
+#lsishort-mce-btn svg {
+    display: block;
+    pointer-events: none;
+}
