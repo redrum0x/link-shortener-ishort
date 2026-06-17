@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Link Shortener by iShort
- * Plugin URI:  https://ishort.su
+ * Plugin URI:  https://github.com/redrum0x/link-shortener-ishort
  * Description: Shorten URLs directly from the WordPress editor using iShort.su service.
  * Version:     1.0.0
  * Author:      iShort

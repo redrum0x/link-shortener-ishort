@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Link Shortener by iShort 1.0.0\n"
-"Report-Msgid-Bugs-To: https://github.com/ishort-su/link-shortener-ishort/issues\n"
+"Report-Msgid-Bugs-To: https://github.com/redrum0x/link-shortener-ishort/issues\n"
 "POT-Creation-Date: 2024-01-01 00:00:00+00:00\n"
 "PO-Revision-Date: 2024-01-01 00:00:00+00:00\n"
 "Last-Translator: iShort <support@ishort.su>\n"
