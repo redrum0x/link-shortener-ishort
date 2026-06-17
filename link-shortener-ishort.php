@@ -24,11 +24,6 @@ define( 'LSISHORT_SETTINGS_URL', 'https://ishort.su/user/api-clients' );
 define( 'LSISHORT_PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
 define( 'LSISHORT_PLUGIN_URL', plugin_dir_url( __FILE__ ) );
 
-// Load translations.
-add_action( 'init', function () {
-	load_plugin_textdomain( 'link-shortener-ishort', false, dirname( plugin_basename( __FILE__ ) ) . '/languages' );
-} );
-
 // -------------------------------------------------------------------------
 // Settings
 // -------------------------------------------------------------------------
@@ -67,8 +62,8 @@ function lsishort_settings_page() {
 			<p>
 				<?php
 				printf(
-					/* translators: %s: URL to iShort registration page */
 					wp_kses(
+						/* translators: %s: URL to iShort homepage */
 						__( 'To use this plugin you need a free account at <a href="%s" target="_blank" rel="noopener">iShort.su</a> and an API token.', 'link-shortener-ishort' ),
 						[ 'a' => [ 'href' => [], 'target' => [], 'rel' => [] ] ]
 					),
@@ -77,8 +72,8 @@ function lsishort_settings_page() {
 				?>
 				<?php
 				printf(
-					/* translators: %s: URL to iShort token page */
 					wp_kses(
+						/* translators: %s: URL to iShort API clients page */
 						__( 'Get your token on the <a href="%s" target="_blank" rel="noopener">API clients page</a>.', 'link-shortener-ishort' ),
 						[ 'a' => [ 'href' => [], 'target' => [], 'rel' => [] ] ]
 					),
@@ -106,8 +101,8 @@ function lsishort_settings_page() {
 						<p class="description">
 							<?php
 							printf(
-								/* translators: %s: URL to iShort token page */
 								wp_kses(
+									/* translators: %s: URL to iShort API clients page */
 									__( 'Get your token at <a href="%s" target="_blank" rel="noopener">ishort.su/user/api-clients</a>', 'link-shortener-ishort' ),
 									[ 'a' => [ 'href' => [], 'target' => [], 'rel' => [] ] ]
 								),
